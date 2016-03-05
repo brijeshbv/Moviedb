@@ -20,7 +20,7 @@ android {
     }
 
     buildTypes.each{
-        it.buildConfigField 'String','TMDB_API_KEY',"\"c56f9d9aaf460a484c168d2fd0d7c7a7\""
+        it.buildConfigField 'String','TMDB_API_KEY',"\"API_KEY\""
     }
     repositories{
         mavenCentral()
